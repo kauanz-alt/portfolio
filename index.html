@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+  <head>
+   <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>escola</title>
+  <style>
+   @media (max-width: 400px;) {
+   body {font-size: 4vw;}
+   nav a {font-size:5vw; padding:2% 3%;}
+   .hero {padding:4vw;}
+   .btn {font-size: 4vw;padding: 2% 4%;}
+   }
+    body::before {
+        background-image: url("https://blog.supertechfitness.com.br/wp-content/uploads/2023/06/espaco-academia-1024x768.jpeg");
+        z-index: -1;
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        filter: blur(8px) brightness(70%);
+        background-size: cover;
+        background-position: center;
+    }
+   body {
+    font-family:arial;
+    text-align:center;
+    color:black;
+    font-size: 100%;
+   }
+   nav {
+    padding:10px;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    padding: 5px 0;
+   } 
+   nav a {
+    background-color:green;
+    color:white;
+    margin:20px;
+    padding:2% 2%;
+    text-decoration:none;
+    border-radius:20px;
+   }
+   
+   nav a:hover {
+    color:yellow;
+    transform: scale(1.1);
+    transition: 0.3s;
+   }
+   .hero {
+    padding:5%;
+    margin-left:5%;
+    margin-right:5%;
+    max-width: 95%;
+    background-color:white;
+    border-radius:20px;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+   }
+   .hero ul {
+      width: 90%;
+      margin: 10px auto;
+      padding-left: 20px;
+   }
+   .hero p {
+      letter-spacing: 3px;
+      line-height: 1.6;
+   }
+   img {
+      width: 90%;
+      height: auto;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      max-width: 500px;
+   }
+   hr {
+       border: none;
+       height: 3px;
+       background: black;
+       margin: 40px;
+   }
+   .btn {
+      background-color: green;
+      color: white;
+      padding: 2% 5%;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+   }
+   .btn:hover {
+      background-color: yellow;
+      transform: scale(1.1);
+      transition: 0.3s;
+   }
+  </style>
+  </head>
+  <body>
+   <div class="barra">
+    <nav>
+     <a href="inicio.html">Inicio</a>
+     <a href="professores.html">Professores</a>
+     <a href="contato.html">Contato</a>
+    </nav>
+   </div>
+   <div class="hero"> 
+    <h1>Fitness Form</h1>
+    <p><strong> Seja Bem Vindo</strong></p>
+   <h2>Oque oferecemos Aqui?!</h2>
+   <p>Oferecemos estrutura moderna, profissionais qualificados e treinos personalizados para ajudar você a atingir seus resultados.</p>
+   </div>
+
+   <hr>
+
+   <img src="https://tecnofit-site.s3.sa-east-1.amazonaws.com/media/files/2023/02/13111808/investimento-em-academia-de-musculacao.png" alt="foto de uma pessoa treinando">
+
+   <hr>
+
+   <div class="hero">
+      <h2>Planos</h2>
+      <p>Planos que esgotaram</p>
+      <ul>
+         <li><del>Plano Familia</del></li>
+         <li><del>Plano Casal</del></li>
+      </ul>
+      <h2><mark>Mais ainda temos!!</mark></h2>
+      <ul>
+         <li>Plano Mensal</li>
+         <li>Plano Trimestral</li>
+         <li>Plano Anual</li>
+      </ul>
+   </div>
+
+   <hr>
+
+   <div class="hero">
+      <h2>Depoimentos</h2>
+      <p>"Desde que comecei aqui, meus treinos ficaram mais produtivos e estou alcançando meus objetivos mais rápido. A motivação que recebo aqui faz toda a diferença!"</p>
+
+      <hr>
+
+      <a href="contato.html" class="btn">Inscreva-se</a>
+   </div>
+   <footer>
+        <p>© 2026 Fitness Form | Contato: email@academia.com</p>
+   </footer>
+  </body>
+ </html>   
